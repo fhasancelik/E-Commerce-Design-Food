@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS RECIPESt</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--Header Base-->
+    <header class="header">
+        <!--Logo Base-->
+        <a href="#">
+            <img src="images/logo.png" alt="Logo" id="logo">
+        </a>
+        <!--End Of Logo Base-->
+        <!--Nav Bar Base-->
+        <nav class="navbar ">
+            <a href="#home" class="navlink" id="activenavlink">Home</a>
+            <a href="#about" class="navlink">About</a>
+            <a href="#menu" class="navlink">Menu</a>
+            <a href="#products" class="navlink">Products</a>
+            <a href="#review" class="navlink">Review</a>
+            <a href="#contact" class="navlink">Contact</a>
+            <a href="#blogs" class="navlink">Blogs</a>
+        </nav>
+        <!--End Of Nav Bar Base-->
+        <!--Search-Basket Base-->
+        <div class="buttons">
+            <button class="headerbutton" id="search-btn">
+                <i class="fas fa-search header-icons"></i>
+
+            </button>
+            <button class="headerbutton" id="shoppingbtn">
+                <i class="fas fa-shopping-cart header-icons"></i>
+
+            </button>
+            <button class="headerbutton" id="menu-btn">
+                <i class="fas fa-bars header-icons" id="menu-btn"></i>
+
+            </button>
+        </div>
+        <!--End Of Search-Basket Base-->
+
+        <!--Search Bar-->
+<div class="search-form ">
+    <input type="text" class="search-input" id="search-box" placeholder="search here">
+
+<i class="fas fa-search"></i>
+</div>
+<!--End Of Search Bar-->
+
+<!--Shopping Cart Base-->
+
+<div class="cart-items-container ">
+
+    <!--Cart Item-->
+    <div class="cart-item">
+       <div class="cart-img-content">
+        <img src="images/menu-1.png" alt="">
+        <div class="cart-item-content">
+            <h3>cart item 01</h3>
+            <span class="shopping-price">$15.99</span>
+        </div>
+       </div>
+<i class="fas fa-times"></i>
+    </div>
+ <!--End Of Cart Item-->
+
+  <!--Cart Item-->
+  <div class="cart-item">
+    <div class="cart-img-content">
+     <img src="images/menu-2.png" alt="">
+     <div class="cart-item-content">
+         <h3>cart item 01</h3>
+         <span class="shopping-price">$15.99</span>
+     </div>
+    </div>
+<i class="fas fa-times"></i>
+ </div>
+<!--End Of Cart Item-->
+
+ <!--Cart Item-->
+ <div class="cart-item">
+    <div class="cart-img-content">
+     <img src="images/menu-3.png" alt="">
+     <div class="cart-item-content">
+         <h3>cart item 01</h3>
+         <span class="shopping-price">$15.99</span>
+     </div>
+    </div>
+<i class="fas fa-times"></i>
+ </div>
+<!--End Of Cart Item-->
+    <a href="#" class="btn">Check Out Now</a>
+</div>
+
+<!--End Of Shopping Cart Base-->
+    </header>
+
+    <!--End Of Header Base-->
+    <!--Show Case Base-->
+    <section class="homecase" id="home">
+        <article class="homecasecontent">
+            <h3>Express Home Delivery</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium vero debitis quia, optio cumque
+                similique unde laborum sequi perferendis incidunt!</p>
+            <a href="#" class="btn">Order Now</a>
+        </article>
+    </section>
+    <!--End Of Show Case Base-->
+    <!--Our Menu Base-->
+    <section id="menu">
+        <!--Menu Header-->
+        <h1 class="heading">Our <span> Menu</span></h1>
+        <!--End Of Menu Header-->
+        <!--Menu Main Container-->
+        <div class="menu-main-container">
+            <!--Menu Container-->
+            <div class="menu-container">
+                <div class="top-cont">
+                    <img src="images/menu-1.png" alt="">
+                    <span class="menu-catagory">Pizza</span>
+                    <h3>6 Mini Pizzas</h3>
+                    <div class="prices">$104.99 <span>$119.99</span></div>
+
+                </div>
+
+                <div class="bottom-cont">
+                    <a href="" class="btn">Add To Card</a>
+                </div>
+
+            </div>
+            <!--End Of Menu Container-->
+              <!--Menu Container-->
+              <div class="menu-container">
+                <div class="top-cont">
+                    <img src="images/menu-2.png" alt="">
+                    <span class="menu-catagory">Burger</span>
+                    <h3>5 Mini Burgers</h3>
+                    <div class="prices">$104.99 <span>$119.99</span></div>
+
+                </div>
+
+                <div class="bottom-cont">
+                    <a href="" class="btn">Add To Card</a>
+                </div>
+
+            </div>
+            <!--End Of Menu Container-->
+              <!--Menu Container-->
+              <div class="menu-container">
+                <div class="top-cont">
+                    <img src="images/menu-3.png" alt="">
+                    <span class="menu-catagory">Pizza</span>
+                    <h3>2 Mixed Pizzas</h3>
+                    <div class="prices">$49.99 <span>$59.99</span></div>
+
+                </div>
+
+                <div class="bottom-cont">
+                    <a href="" class="btn">Add To Card</a>
+                </div>
+
+            </div>
+            <!--End Of Menu Container-->
+              <!--Menu Container-->
+              <div class="menu-container">
+                <div class="top-cont">
+                    <img src="images/menu-4.png" alt="">
+                    <span class="menu-catagory">Pizza</span>
+                    <h3>3 Meatball Burgers</h3>
+                    <div class="prices">$79.99 <span>$99.99</span></div>
+
+                </div>
+
+                <div class="bottom-cont">
+                    <a href="" class="btn">Add To Card</a>
+                </div>
+
+            </div>
+            <!--End Of Menu Container-->
+       
+
+
+        </div>
+
+        <!--End Of Menu Main Container-->
+    </section >
+    <!--End Of Our Menu Base-->
+    <!--Our Product Base-->
+    <section id="products">
+        <!--Our Product Header-->
+        <h1 class="heading">Our <span> Product</span></h1>
+
+        <!--End Of Our Product Header-->
+        <!--Main Products Container-->
+        <div class="products-main-container">
+            <!--Product Container-->
+            <div class="product-cont">
+                <!--Product Container Top-->
+                <div class="product-top-cont">
+                    <span class="title">Mini Burger</span>
+                    <a href="#" class="name">Bacon Burger</a>
+    
+                </div>
+                  <!--End Of Product Container Top-->
+                  <div class="image">
+                    <img src="images/product-1.png" alt="">
+                  </div>
+                  <!--Product Container Bottom-->
+                <div class="product-bottom-cont">
+                 <div class="info">
+                    <b class="product-price">$24.00</b>
+                    <span class="amount">100gr</span>
+                 </div>
+
+                 <div class="product-btn">
+                    <a href="#">
+                     <i class="fas fa-plus"></i>
+                    </a>
+                 </div>
+                </div>
+                 <!--End Of Product Container Bottom-->
+            </div>
+            
+             <!--End Of Product Container-->
+
+                <!--Product Container-->
+            <div class="product-cont">
+                <!--Product Container Top-->
+                <div class="product-top-cont">
+                    <span class="title">Mini Burger</span>
+                    <a href="#" class="name">Bacon Burger</a>
+    
+                </div>
+                  <!--End Of Product Container Top-->
+                  <div class="image">
+                    <img src="images/product-2.png" alt="">
+                  </div>
+                  <!--Product Container Bottom-->
+                <div class="product-bottom-cont">
+                 <div class="info">
+                    <b class="product-price">$24.00</b>
+                    <span class="amount">100gr</span>
+                 </div>
+
+                 <div class="product-btn">
+                    <a href="#">
+                     <i class="fas fa-plus"></i>
+                    </a>
+                 </div>
+                </div>
+                 <!--End Of Product Container Bottom-->
+            </div>
+            
+             <!--End Of Product Container-->
+
+                <!--Product Container-->
+            <div class="product-cont dark-bg">
+                <!--Product Container Top-->
+                <div class="product-top-cont">
+                    <span class="title">Mini Burger</span>
+                    <a href="#" class="name">Bacon Burger</a>
+    
+                </div>
+                  <!--End Of Product Container Top-->
+                  <div class="image">
+                    <img src="images/dark-product.jpg" alt="">
+                  </div>
+                  <!--Product Container Bottom-->
+                <div class="product-bottom-cont">
+                 <div class="info">
+                    <b class="product-price">$24.00</b>
+                    <span class="amount">100gr</span>
+                 </div>
+
+                 <div class="product-btn">
+                    <a href="#">
+                     <i class="fas fa-plus"></i>
+                    </a>
+                 </div>
+                </div>
+                 <!--End Of Product Container Bottom-->
+            </div>
+            
+             <!--End Of Product Container-->
+        </div>
+        <!--End Of Main Products Container-->
+    </section>
+    <!--End Of Our Product Base-->
+
+    <!--About Us Base-->
+    <section id="about">
+         <!--About Us Header-->
+         <h1 class="heading">About <span> Us</span></h1>
+         <!--End Of About Us Header-->
+         <!--About Us Container-->
+         <div class="about-us-cont">
+            <!--Image-->
+            <div class="about-us-image">
+                <img src="images/about.jpg" alt="">
+            </div>
+                 <!--End Of Image-->
+                 <!--Content-->
+                 <div class="about-us-content">
+            <article class="content-article">
+                <h3 class="content-header">What is The Secret Recipe Of Our Burgers</h3>
+<div class="p-cont">
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis sunt mollitia obcaecati, accusamus deserunt sit laborum in placeat dolore iste!</p>
+    <br>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam ex voluptate quasi illum autem aut optio possimus officia consequatur fugit.
+    
+    </p>
+    <br>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum aliquam quas commodi velit, quos earum laudantium numquam veniam facilis ullam?</p>
+   
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis sunt mollitia obcaecati, accusamus deserunt sit laborum in placeat dolore iste!</p>
+    <br>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam ex voluptate quasi illum autem aut optio possimus officia consequatur fugit.
+    
+    </p>
+    <br>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum aliquam quas commodi velit, quos earum laudantium numquam veniam facilis ullam?</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis sunt mollitia obcaecati, accusamus deserunt sit laborum in placeat dolore iste!</p>
+    <br>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam ex voluptate quasi illum autem aut optio possimus officia consequatur fugit.
+    
+    </p>
+
+</div>     
+               
+               
+               
+               
+               
+               
+               
+               
+                <a href="" class="btn">Add To Card</a>
+            </article>
+                 </div>
+                   <!--End Of Content-->
+                     </div>
+                     <!--End OfAbout Us Container-->
+    </section>
+    
+     <!--End Of About Us Base-->
+
+     <!--Comment Base-->
+     <section id="review">
+        <!--Menu Header-->
+        <h1 class="heading">Customer's<span> Review</span></h1>
+        <!--End Of Menu Header-->
+        <!--Reviews Main Container-->
+        <div class="reviews-main-cont">
+            <!--review container-->
+            <div class="review-cont">
+                <div class="review-symbol">
+                    <img src="images/quote.png" alt="">
+                </div>
+                <div class="review-p">
+                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, maiores expedita sunt voluptatem dolorem itaque perspiciatis quibusdam modi eaque enim totam deserunt repudiandae assumenda quas provident vitae nesciunt quod distinctio aut natus minima. Dignissimos nam quae fuga mollitia possimus saepe, autem impedit libero nobis itaque illum. Ducimus tempore sit minima.</p>
+                </div>
+                <div class="customer-info">
+                    <img src="images/avatar-2.png" alt="">
+                    <p>Lisa Arambula</p>
+                    <div class="stairs-cont">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+            </div>
+              <!--End Of review container-->
+
+                 <!--review container-->
+            <div class="review-cont">
+                <div class="review-symbol">
+                    <img src="images/quote.png" alt="">
+                </div>
+                <div class="review-p">
+                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, maiores expedita sunt voluptatem dolorem itaque perspiciatis quibusdam modi eaque enim totam deserunt repudiandae assumenda quas provident vitae nesciunt quod distinctio aut natus minima. Dignissimos nam quae fuga mollitia possimus saepe, autem impedit libero nobis itaque illum. Ducimus tempore sit minima.</p>
+                </div>
+                <div class="customer-info">
+                    <img src="images/avatar-1.png" alt="">
+                    <p>Lisa Arambula</p>
+                    <div class="stairs-cont">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+            </div>
+              <!--End Of review container-->
+
+
+                 <!--review container-->
+            <div class="review-cont">
+                <div class="review-symbol">
+                    <img src="images/quote.png" alt="">
+                </div>
+                <div class="review-p">
+                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, maiores expedita sunt voluptatem dolorem itaque perspiciatis quibusdam modi eaque enim totam deserunt repudiandae assumenda quas provident vitae nesciunt quod distinctio aut natus minima. Dignissimos nam quae fuga mollitia possimus saepe, autem impedit libero nobis itaque illum. Ducimus tempore sit minima.</p>
+                </div>
+                <div class="customer-info">
+                    <img src="images/avatar-3.png" alt="">
+                    <p>Lisa Arambula</p>
+                    <div class="stairs-cont">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                    </div>
+                </div>
+            </div>
+              <!--End Of review container-->
+          
+        </div>
+        <!--End Of Reviews Main Container-->
+     </section>
+     <!--End Of Comment Base-->
+
+     <!--Contact Base-->
+     <section id="contact">
+         <!--Contact Header-->
+         <h1 class="heading">Contact<span> Us</span></h1>
+         <!--End Of Contact Header-->
+        <!--Contact Main Container-->
+        <div class="contact-main-cont">
+            <!--Maps Container-->
+           <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14440.106487520085!2d55.2404668!3d25.2023247!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe00fdb11bda3cc8a!2sNusr-et%20Dubai!5e0!3m2!1str!2str!4v1676666705611!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <!--End Of Maps Container-->
+
+              <!--Contact Form Container-->
+            
+<form action="" class="form-base">
+    <h3>GET IN TOUCH</h3>
+    <div class="input-box">
+        <i class="fa-solid fa-user"></i>
+        <input type="text" placeholder="username" >
+    </div>
+        <div class="input-box">
+            <i class="fa-solid fa-envelope"></i>
+            <input type="email" placeholder="Your Email">
+        </div>
+
+        <div class="input-box">
+            <i class="fa-solid fa-phone"></i>
+            <input type="number" placeholder="Your Number">
+        </div>
+       <input type="submit" class="btn" id="contact-btn" value="Contact Now">
+   
+</form>
+
+
+           
+            <!--End Of Contact Form Container-->
+        </div>
+         <!--End Of Contact Main Container-->
+     </section>
+     <!--End Of Contact Base-->
+
+     <!--Our Blogs Base-->
+  <section id="blogs">
+    <!--Our Blogs Header-->
+  <h1 class="heading">Our <span> Blog</span></h1>
+  <!--End Of Our Blogs Header-->
+  <!--Our Blogs Main Container-->
+  <div class="our-blog-main-cont">
+    <!--Blog Container-->
+    <div class="blog-cont">
+        <div class="image-blog"><img src="images/blog-1.jpg" alt=""></div>
+
+ <!--Content Area-->
+ <div class="content-area">
+    <h3>How To Make Burgers</h3>
+    <h5>By Admin / 10st May,2023</h5>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et eligendi ipsam vitae, odit ab aliquam reprehenderit voluptatum est accusamus ipsa.</p>
+    <a href="" class="btn rm">Read More</a>
+       
+
+   </div>
+   <!--End of Content Area-->
+    </div>
+    <!--End Of Blog Container-->
+
+     <!--Blog Container-->
+     <div class="blog-cont">
+        <div class="image-blog"><img src="images/blog-2.jpg" alt=""></div>
+
+       <!--Content Area-->
+       <div class="content-area">
+        <h3>How To Make Burgers</h3>
+        <h5>By Admin / 10st May,2023</h5>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et eligendi ipsam vitae, odit ab aliquam reprehenderit voluptatum est accusamus ipsa.</p>
+        <a href="" class="btn rm">Read More</a>
+           
+    
+       </div>
+       <!--End of Content Area-->
+            </div>
+            <!--End Of Blog Container-->
+
+             <!--Blog Container-->
+    <div class="blog-cont">
+        <div class="image-blog"><img src="images/blog-3.jpg" alt=""></div>
+
+       <!--Content Area-->
+       <div class="content-area">
+        <h3>How To Make Burgers</h3>
+        <h5>By Admin / 10st May,2023</h5>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et eligendi ipsam vitae, odit ab aliquam reprehenderit voluptatum est accusamus ipsa.</p>
+        <a href="" class="btn rm">Read More</a>
+           
+    
+       </div>
+       <!--End of Content Area-->
+    </div>
+            <!--End Of Blog Container-->
+  </div>
+  <!--End Of Our Blogs Container-->
+  </section>
+     <!--End Of Our Blog Base-->
+
+     <!--Footer Base-->
+<footer>
+    <!--Search Bar-->
+
+    <div class="search-bar-cont">
+        <input type="text" placeholder="search">
+        <a href="" class="btn" id="footer-btn">Search</a>
+    </div>
+   
+       <!--End Of Search Bar-->
+
+
+       <!--Icon Bar-->
+       <div class="icon-cont">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-github"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-instagram"></i>
+
+       </div>
+       <!--End Of Icon Bar-->
+
+       <!--Footer Navbar -->
+       <nav class="footer-navbar">
+        <a href="index.html" class="footer-navlink" >Home</a>
+        <a href="about.html" class="footer-navlink">About</a>
+        <a href="menu.html" class="footer-navlink">Menu</a>
+        <a href="products.html" class="footer-navlink">Products</a>
+        <a href="review.html" class="footer-navlink">Review</a>
+        <a href="contact.html" class="footer-navlink">Contact</a>
+        <a href="blog.html" class="footer-navlink">Blogs</a>
+    </nav>
+       <!--End Of Navbar-->
+
+       <!--Footer head-->
+<div class="footer-head">
+    <p>Created By <span>Hasan Çelik</span> | All Right Reserved</p>
+
+
+</div>
+      
+        <!--End Of Footer head-->
+</footer>
+      <!--End Of Footer Base-->
+
+      <script src="app.js"></script>
+</body>
+
+</html>
+
